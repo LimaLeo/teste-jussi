@@ -1,0 +1,10 @@
+@media #{$tablet}{
+	html, body{
+		font-size: 14px;
+	}
+}
+@media #{$celular}{
+	html, body{
+		font-size: 12px;
+	}	
+}

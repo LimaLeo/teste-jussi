@@ -1,0 +1,18 @@
+#elevador{
+	position: absolute;
+	background: #88deed;
+	width: 30%;
+	height: 100px;
+	border: 1px solid black;
+	margin: 5px 0 0 5px;
+	top: 500px;
+	@media #{$tablet}{
+		margin: 0 0 0 5px;
+	}
+	.porta{
+	    float: left;
+		width: 50%;
+	    height: 100px;
+		border-right: 1px solid #000;
+	}
+}

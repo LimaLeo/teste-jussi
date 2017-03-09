@@ -1,0 +1,30 @@
+@import 'components/normalize';
+
+*{
+    box-sizing: border-box;
+}
+
+main {
+	margin: 0 auto;
+	width: 80%;
+	position: relative;
+}
+
+section{
+	width: 100%;
+	display: inline-block;
+}
+
+img {
+ 	max-width: 100%;
+}
+
+@import "helpers/fonts";
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/extends";
+@import "helpers/media-queries";
+
+@import 'layout/andar';
+@import 'layout/botao';
+@import 'layout/elevador';

@@ -1,0 +1,12 @@
+section{
+	article{
+		float: left;
+		width: 70%;
+	    height: 90px;
+		margin-top: 5px;
+		@include container-andar;
+	}
+	.active{
+		height: 110px;
+	}
+}
