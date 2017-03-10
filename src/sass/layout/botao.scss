@@ -1,9 +1,10 @@
 section{
+	position: relative;
 	aside{
 		float: left;
 		width: 30%;
 		margin-top: 5px;
-	
+		position: relative;
 		.title{
 			float: left;
 			width: 100%;
@@ -13,20 +14,55 @@ section{
 		.painel{
 			margin: 0 auto;
 			width: 50%;
+			position: relative;
 			a{
 				float: left;
 				width: 40%;
 				height: 40px;
-				text-align: center;
 			    margin: 0 5%;
+			    padding-top: 10px; 
+			    text-decoration: none;
 				@include container-andar;
-				@media #{$tablet}{
-					height: 30px;
+			}
+			.sobe{ 
+				position: relative;
+				span{
+					position: absolute;
+					left: 35%;
+					&:after{
+						content: "";
+						float: left;
+						@extend .sprite;
+						background-position: -15px 0;
+					}
 				}
-				@media #{$celular}{
-					height: 20px;
+			}
+			.desce{ 
+				position: relative;
+				span{
+					position: absolute;
+					left: 35%;
+					&:after{
+						content: "";
+						float: left;
+						@extend .sprite;
+						background-position: 0 0;
+					}
 				}
+			}
+			.active{
+				background: #edf2ce;
 			}
 		}
 	}
+	.terreo{
+		.painel{
+			a{
+				margin: 5% 30%;
+			}
+		}
+
+	}
 }
+
+
