@@ -506,8 +506,6 @@ section {
             content: "";
             float: left;
             background-position: 0 0; }
-      section aside .painel .active {
-        background: #edf2ce; }
   section .terreo .painel a {
     margin: 5% 30%; }
 
@@ -525,10 +523,10 @@ section {
   #elevador .porta {
     width: 50%;
     height: 90px;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear; }
     #elevador .porta:first-child {
       float: left;
       border-right: 1px solid #000; }
